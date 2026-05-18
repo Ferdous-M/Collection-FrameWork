@@ -13,6 +13,9 @@ public class Main {
 
         list.addFirst(5);
         list.addLast(6);
+        list.remove(Integer.valueOf(6));
         System.out.println(list);
+        System.out.println(list.size());
+        System.out.println(list.get(2));
 }
 }
