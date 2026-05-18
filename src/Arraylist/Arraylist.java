@@ -33,7 +33,7 @@ public class Arraylist {
         names.add("Bob");
         names.add("Charlie");
 
-        for(String name : names) {
+        for (String name : names) {
             System.out.println(name);
         }
 
@@ -44,4 +44,4 @@ public class Arraylist {
         names.clear();
         System.out.println("Names after removal: " + names);
     }
-    }
+}
