@@ -13,5 +13,13 @@ public class Main {
         hashSet.add("b");
 
         System.out.println(hashSet);
+
+        hashSet.remove("c");
+        System.out.println(hashSet);
+        System.out.println(hashSet.contains("a"));
+        System.out.println(hashSet.size());
+        System.out.println(hashSet.isEmpty());
+        hashSet.clear();
+        System.out.println(hashSet.isEmpty());
     }
 }
