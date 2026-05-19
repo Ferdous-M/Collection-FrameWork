@@ -1,10 +1,8 @@
-package Hashset;
+package Set;
 
-import java.util.HashSet;
-
-public class Main {
+public class MainHashSet {
     public static void main(String[] args) {
-        HashSet<Integer> hashSet = new HashSet<Integer>();
+        java.util.HashSet<Integer> hashSet = new java.util.HashSet<Integer>();
 
         hashSet.add(1);
         hashSet.add(2);
